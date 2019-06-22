@@ -25,4 +25,4 @@ do
     echo "$f10" | awk '{ printf("Credit Limit: $%'"'"'d USD\n",$1); }' >> "$path"
     
     
-done < <(tail -n +2 "100CCRecords.csv")
+done < <(tail -n +2 '100 CC Records.csv')
